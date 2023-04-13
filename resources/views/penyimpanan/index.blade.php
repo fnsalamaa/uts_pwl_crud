@@ -6,7 +6,7 @@
         <div class="pb-3">
             <form class="d-flex" action="{{ url('penyimpanan') }}" method="get">
                 <input class="form-control me-1" type="search" name="katakunci" 
-                value="{{ Request::get('katakunci') }}" placeholder="Masukkan kata kunci" aria-label="Search">
+                value="{{ Request::get('katakunci') }}" placeholder="Enter Keywords" aria-label="Search">
                     <button class="btn btn-secondary" type="submit">Search</button>
             </form>
         </div>
